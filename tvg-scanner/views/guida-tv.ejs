@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body class="<%= page %>">
+    <% include partials/template/header.ejs %>
+
+    <section class="container-fluid">
+      <div class="row content"><!--.row content -->
+        <% include partials/content/tvGuideContent.ejs %>
+      </div><!--/.row content-->
+    </section>      
+    <% include partials/template/footer.ejs %>
+    <% include partials/template/jsdefaults.ejs %>
+    <script src="javascripts/guidaTv.js" type="text/javascript" ></script>
+  </body>
+</html>

@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+body {
+	color: white;
+	background-color: black ;
+  	font-family: 'Droid Sans', sans-serif;
+}
+
+.container-fluid {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+#header{
+	background-color: black;
+	background-size: cover;
+}
+
+.modal{
+	color: black;
+}
+
+.navbar {
+    background-color: black;
+    border: transparent;
+    padding-left: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f5f5f5;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #449d44;
+}
+
+.formNav{
+	margin-top: 10px
+}
+
+.modaleAccedi{
+	margin-right: 50px;
+}
+
+.rightContent {
+	padding-right: -15px;
+	padding-left: -15px;
+}
+
+.img-responsive {
+	padding-top: 40px;
+}
+
+.topMenuBrand {
+	height: 30px;
+	padding-bottom: 10px;
+}
+
+.comingSoon {
+	background-color: black;
+	text-align: center;
+	color: white;
+
+}
+
+
+.gifBox {
+	background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.aside {
+	text-align: center;
+	background-color: #5cb85c;
+	padding-top: 40px;
+	padding-bottom: 140px;
+	height: 100%;
+	float: left;
+}
+
+.aside ul {
+	text-align: center;
+	list-style: none;
+	margin: 0 10px;
+    padding: 0;
+    line-height: 200%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+.aside li {
+	display: list-item;
+	float: left;
+	margin: 8px;
+	background-color: white;
+    border-radius: 4px;
+    border: 1px solid #555
+}
+
+.aside li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.aside li a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.thumbnail{
+	margin-top: 20px;
+}
+
+.navbar-fixed-bottom {
+	height: 100px;
+	position: static;
+}
+
+.footer {
+	border-top: 1px orangered solid;
+	height: 80px;
+}
+
+.footer ul li {
+	padding-left: 40px;
+}
+
+.gif {
+	width: 300px;
+}
+
+.navbar-brand {
+	display: block;
+}
+
+
+/* pagina registrazione */
+.sectionRegistrazione {
+	background-color: grey;
+	padding-top: 150px;
+	padding-bottom: 120px;
+	text-align: center;
+	margin: auto;
+}
+
+.boxRegistrazione {
+	background-color: #5cb85c;
+	padding: 30px;
+    border-radius: 4px;
+    border: 1px solid #555
+}
+
+.form-control {
+}
+
+.campoObbligatorio {
+	border: 1px solid red;
+
+}
+
+#example {
+	background-color: transparent !important;
+}
+
+.red {
+	width: 900px;
+	height: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.adattamentoImg {
+	margin: auto;
+	width: 900px
+}
+
+.bordered {
+	margin-bottom: 80px;
+	background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #555	
+}
+
+.locandinaFilm {
+	margin: 0 40px 0 40px;
+}
+
+.titoloFilm {
+	margin: 0 40px 0 40px;	
+}
+
+
+.tavola {
+	border:3px solid #556;
+	border-collapse: separate;
+    border-spacing: 4px;
+    color:#b8b05c;
+    border-color: darken(@tableColour,10%);
+    background-color: darken;
+    }
+}
+
+.colora{
+		font-family: verdana, arial, sans-serif;
+		font-size: 11px;
+		color: #333333;
+		border-width: 1px;
+		border-color: #3A3A3A;
+		border-collapse: collapse;
+}
+
+	table.table-style-two {
+		font-family: verdana, arial, sans-serif;
+		font-size: 11px;
+		color: #333333;
+		border-width: 1px;
+		border-color: #3A3A3A;
+		border-collapse: collapse;
+	}
+ 
+	table.table-style-two th {
+		border-width: 1px;
+		border-style: solid;
+		border-color: #333333;
+		background-color: #5cb85c;
+	}
+ 
+	table.table-style-two tr:hover td {
+		background-color: #DFEBF1;
+	}
+ 
+	table.table-style-two td {
+		border-width: 1px;
+		border-style: solid;
+		border-color: #333333;
+		background-color: #ffffff;
+	}
+
+.font {
+	color:#5cb85c;
+}

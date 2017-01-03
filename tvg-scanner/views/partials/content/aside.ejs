@@ -1,0 +1,28 @@
+            <h2>I più visti della settimana</h2>
+              <p>
+                <ul>
+                <% appdata.results.forEach(function(item,i) { %>
+                  <% if (i<=5) {%>
+                    <li> <a href="#"><%= item.title %> </a> </li>
+                  <%}%>
+                <% }); %>          
+                 </ul><br>
+              </p>
+              <hr>
+              <h3>Cerca per genere</h3><br>
+                <ul>
+                <% appdata.results.forEach(function(item,i) { %>
+                  <% if (i<=5) {%>
+                    <li> <a href="#"><%= item.genre_name %> </a> </li>
+                  <%}%>
+                <% }); %>  
+                </ul><br>
+              <hr>
+              <h3>Cerca per anno di produzione</h3><br>
+                <ul>
+                <% appdata.results.forEach(function(item,i) { %>
+                  <% if (i<=5) {%>
+                    <li> <a href="#"><%= item.release_date %> </a> </li>
+                  <%}%>
+                <% }); %>  
+                </ul><br>
